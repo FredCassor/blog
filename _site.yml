@@ -1,12 +1,15 @@
-name: "monBlog"
-title: "Mon Blog"
+name: "Blog"
+title: "Blog de Frederik"
 description: |
-  Mon Blog
+  Blog avec Distill
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
+    - text: "Accueil"
       href: index.html
     - text: "About"
       href: about.html
+    - icon: fab fa-github
+      href: https://github.com/FredCassor/blog
+base_url: https://fredcassor.github.io/blog/
 output: distill::distill_article
